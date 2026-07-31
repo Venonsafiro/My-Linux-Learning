@@ -5,10 +5,10 @@
 **Tiempo dedicado:** 30 minutos a la practica
 
 ## 🎯 Objetivo del Día
-Aprendí a intalar linux WSL- (Windows para linux) y navegar por el sistema de linux y sus archivos
+Aprendí a instalar linux WSL- (Windows para linux) y navegar por el sistema de linux y sus archivos
 
 
-## 🛠️ Leccion Aprendida
+## 🛠️ "Lección Aprendida"
 
 vi como linux puede correr en un sistema compartido con windows y estar en su propio entorno usando la distro de ubuntu, a esto se le llama terminal. es una pantalla negra donde se pueden ejecutar comandos directamente en linux.
 
