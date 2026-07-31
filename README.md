@@ -1,5 +1,5 @@
 # My-Linux-Learning
-# 🐧 Día 1: Primeros pasos en la Terminal de Linux (WSL)
+## 🐧 Día 1: Primeros pasos en la Terminal de Linux (WSL)
 
 **Fecha:** [07/14/2026]
 **Tiempo dedicado:** 30 minutos a la practica
