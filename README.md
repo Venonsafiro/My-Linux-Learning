@@ -35,3 +35,9 @@ Crear una estructura de directorios simulando una empresa (`sistemas`, `contabil
 * `cp` para duplicar y hacer respaldos de seguridad.
 * `mv` para transferir archivos entre departamentos y renombrarlos.
 * `ls -R` para auditar de forma recursiva toda la estructura.
+
+---
+
+## Día 3: Creación De Los Servicios Especiales De Ubuntu
+
+**Fecha:**  |  **Tiempo Dedicado Al Recurso En Linea** 60 minutos
