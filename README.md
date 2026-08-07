@@ -6,12 +6,13 @@ Registro diario de mi aprendizaje en Administración de Sistemas Linux y WSL.
 
 ## 📌 Índice de Contenidos
 
-* 🚀 [Día 1: Primeros Pasos en la Terminal de Linux (WSL)](#día-1-primeros-pasos-en-la-terminal-de-linux-wsl)
-* 🏢 [Día 2: Despliegue de Servidor de Empresa y Gestión de Archivos](#día-2-despliegue-de-servidor-de-empresa-y-gestión-de-archivos)
+* 🚀 [Semana 1: Primeros Pasos en la Terminal de Linux (WSL)](#día-1-primeros-pasos-en-la-terminal-de-linux-wsl)
+* 🏢 [Semana 2: Despliegue de Servidor de Empresa y Gestión de Archivos](#día-2-despliegue-de-servidor-de-empresa-y-gestión-de-archivos)
+* 🔍 [Semana 3: Inspección Avanzada y Búsqueda de Archivos](#día-3-inspección-avanzada-y-búsqueda-de-archivos)
 
 ---
 
-## 🐧 Día 1: Primeros pasos en la Terminal de Linux (WSL)
+## 🐧 Semana 1: Primeros pasos en la Terminal de Linux (WSL)
 
 **Fecha:** 14/07/2026 | **Tiempo dedicado:** 30 minutos
 
@@ -23,7 +24,7 @@ Vi cómo Linux puede correr en un sistema compartido con Windows y estar en su p
 
 ---
 
-## 🏢 Día 2: Despliegue de Servidor de Empresa y Gestión de Archivos
+## 🏢 Semana 2: Despliegue de Servidor de Empresa y Gestión de Archivos
 
 **Fecha:** 27/07/2026 | **Tiempo dedicado:** 60 minutos
 
@@ -38,6 +39,22 @@ Crear una estructura de directorios simulando una empresa (`sistemas`, `contabil
 
 ---
 
-## Día 3: Creación De Los Servicios Especiales De Ubuntu
+## 🔍 Semana 3: Inspección Avanzada y Búsqueda de Archivos
 
-**Fecha:**  |  **Tiempo Dedicado Al Recurso En Linea** 60 minutos
+**Fecha:** 31/07/2026 | **Tiempo dedicado:** 60 minutos
+
+### 🎯 Objetivo del Día
+Aprender a auditar e inspeccionar archivos de texto (*logs*) sin saturar la consola, además de rastrear y localizar archivos en la estructura del servidor mediante patrones de búsqueda.
+
+### 🛠️ Comandos Dominados
+* `wc -l`: Contar el número total de líneas en un archivo.
+* `head -n X`: Leer las primeras **X** líneas de un archivo.
+* `tail -n X`: Leer las últimas **X** líneas de un archivo.
+* `find . -name "*.txt"`: Buscar archivos dentro del directorio actual (`.`) que coincidan con un patrón o extensión usando comodines (`*`).
+
+### 💡 Lección Aprendida y Resolución de Problemas
+* **Líneas finales en blanco:** Al ejecutar `tail -n 1`, si un archivo termina en un salto de línea, puede no mostrar texto visible; aumentar a `tail -n 2` permite ver la última línea con contenido real.
+* **Sintaxis en `find`:** Para ejecutar búsquedas correctas, es imprescindible escribir el guion medio en `-name` e indicar el punto `.` como directorio raíz de búsqueda.
+
+---
+
