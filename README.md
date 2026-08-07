@@ -9,7 +9,7 @@ Registro diario de mi aprendizaje en Administración de Sistemas Linux y WSL.
 * 🚀 [Semana 1: Primeros Pasos en la Terminal de Linux (WSL)](#día-1-primeros-pasos-en-la-terminal-de-linux-wsl)
 * 🏢 [Semana 2: Despliegue de Servidor de Empresa y Gestión de Archivos](#sem-2-despliegue-de-servidor-de-empresa-y-gestión-de-archivos)
 * 🔍 [Semana 3: Inspección Avanzada y Búsqueda de Archivos](#sem-3-inspección-avanzada-y-búsqueda-de-archivos)
-* 📝 [Semana 5: Edición Profesional de Archivos con Nano] (#sem-4-Edición-con-Archívos-nano)
+* 📝 [Semana 4: Edición Profesional de Archivos con Nano](#semana-4-edición-profesional-de-archivos-con-nano)
 
 
 ---
@@ -61,7 +61,7 @@ Aprender a auditar e inspeccionar archivos de texto (*logs*) sin saturar la cons
 ---
 
 
-## 📝 Semana 5: Edición Profesional de Archivos con Nano
+## 📝 Semana 4: Edición Profesional de Archivos con Nano
 
 **Fecha:** 07/08/2026 | **Tiempo dedicado:** 60 minutos
 
