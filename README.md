@@ -7,8 +7,10 @@ Registro diario de mi aprendizaje en Administración de Sistemas Linux y WSL.
 ## 📌 Índice de Contenidos
 
 * 🚀 [Semana 1: Primeros Pasos en la Terminal de Linux (WSL)](#día-1-primeros-pasos-en-la-terminal-de-linux-wsl)
-* 🏢 [Semana 2: Despliegue de Servidor de Empresa y Gestión de Archivos](#día-2-despliegue-de-servidor-de-empresa-y-gestión-de-archivos)
-* 🔍 [Semana 3: Inspección Avanzada y Búsqueda de Archivos](#día-3-inspección-avanzada-y-búsqueda-de-archivos)
+* 🏢 [Semana 2: Despliegue de Servidor de Empresa y Gestión de Archivos](#sem-2-despliegue-de-servidor-de-empresa-y-gestión-de-archivos)
+* 🔍 [Semana 3: Inspección Avanzada y Búsqueda de Archivos](#sem-3-inspección-avanzada-y-búsqueda-de-archivos)
+* 📝 [Semana 5: Edición Profesional de Archivos con Nano] (#sem-4-Edición-con-Archívos-nano)
+
 
 ---
 
@@ -58,3 +60,22 @@ Aprender a auditar e inspeccionar archivos de texto (*logs*) sin saturar la cons
 
 ---
 
+
+## 📝 Semana 5: Edición Profesional de Archivos con Nano
+
+**Fecha:** 07/08/2026 | **Tiempo dedicado:** 60 minutos
+
+### 🎯 Objetivo del Día
+Dominar el editor de texto en consola `nano` para crear, modificar, reordenar y auditar archivos de configuración directamente desde la terminal de Linux sin dependencia del entorno gráfico.
+
+### 🛠️ Comandos y Atajos Dominados
+* `nano <archivo>`: Abrir o crear un archivo en el editor de texto de consola.
+* `Ctrl + O` + `Enter`: Guardar los cambios realizados en el archivo (*WriteOut*).
+* `Ctrl + X`: Salir del editor `nano`.
+* `Ctrl + K`: Cortar la línea actual donde está posicionado el cursor.
+* `Ctrl + U`: Pegar la línea previamente cortada.
+* `Ctrl + W`: Buscar palabras clave o términos dentro de archivos extensos (*Where is?*).
+
+### 💡 Lección Aprendida y Practica
+* **Gestión de variables de entorno:** Se creó y modificó el archivo de configuración `sistemas/web.conf`, ajustando parámetros de servidor, puertos y estados de mantenimiento.
+* **Agilidad en terminal:** Se automatizó el uso de atajos de teclado para mover bloques de código y localizar líneas específicas en segundos.
