@@ -47,9 +47,9 @@ Crear una estructura de directorios simulando una empresa (`sistemas`, `contabil
 Aprender a auditar e inspeccionar archivos de texto (*logs*) sin saturar la consola, además de rastrear y localizar archivos en la estructura del servidor mediante patrones de búsqueda.
 
 ### 🛠️ Comandos Dominados
-* `wc -l`: Contar el número total de líneas en un archivo.
-* `head -n X`: Leer las primeras **X** líneas de un archivo.
-* `tail -n X`: Leer las últimas **X** líneas de un archivo.
+* `wc -L`: Contar el número total de líneas en un archivo.
+* `head -n X`: Leer las primeras **2** líneas de un archivo.
+* `tail -n X`: Leer las últimas **2** líneas de un archivo.
 * `find . -name "*.txt"`: Buscar archivos dentro del directorio actual (`.`) que coincidan con un patrón o extensión usando comodines (`*`).
 
 ### 💡 Lección Aprendida y Resolución de Problemas
