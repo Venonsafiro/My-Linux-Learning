@@ -1,4 +1,4 @@
-# Bitácora de Inspección de Red Linux
+# Bitácora de Inspección de Red - Linux  2026-08-19
 
 **Herramienta:** WSL2 (Ubuntu)
 **Estado General:** OPERATIVO (Conectividad total)
