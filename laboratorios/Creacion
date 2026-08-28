@@ -1,0 +1,19 @@
+# Día de práctica sobre creacion de reloj
+08/23/2026 Domingo mismo dia que cp mv
+
+**Laboratorio: Creación de Script de Reloj en Vivo y Control de Procesos en Segundo Plano**
+
+## 1. Problema identificado
+* Al ejecutar `./reloj.sh` en primer plano (*foreground*), el proceso secuestró la terminal sin devolver el prompt ni mostrar su PID.
+* Al enviar el proceso al segundo plano (`&`), la salida continua en pantalla interrumpió la escritura de comandos, provocando errores de captura al teclear el `kill`.
+
+## 2. Diagnóstico técnico
+* **Ejecución en Foreground:** Los scripts ejecutados sin `&` no generan un Job ID ni muestran su PID al iniciar.
+* **Procesos en Background (`&`):** Al ejecutar `./reloj.sh &`, el sistema asignó la tarea `[1]` y el PID `874` en la memoria RAM, devolviendo el control del prompt.
+* **Interrupción de Entrada:** La salida estándar (`stdout`) del script en background sigue imprimiéndose en la terminal activa, aunque la consola continúa recibiendo comandos de fondo.
+
+## 3. Solución aplicada
+* **Optimización del Código:** Se simplificó la sintaxis a `while true; do date; sleep 2; done > reloj.sh`.
+* **Asignación de Ejecución:** Se validaron los permisos de ejecución con `chmod +x reloj.sh`.
+* **Lanzamiento y Cierre:** Se ejecutó `./reloj.sh &` identificando el PID `874` y se finalizó el proceso de forma limpia usando `kill 874`, confirmando la terminación con `[1]+ Terminated`.
+
