@@ -1,6 +1,6 @@
 # 🐧 My-Linux-Learning-Journey
 
-Registro diario de mi aprendizaje en Administración de Sistemas Linux y WSL.
+Registro de mi aprendizaje en Administración de Sistemas Linux y WSL.
 
 ---
 
@@ -16,7 +16,7 @@ Registro diario de mi aprendizaje en Administración de Sistemas Linux y WSL.
 
 ## 🐧 Semana 1: Primeros pasos en la Terminal de Linux (WSL)
 
-**Fecha:** 14/07/2026 | **Tiempo dedicado:** 30 minutos
+**Fecha:** 07/14/2026 | **Tiempo dedicado:** 30 minutos
 
 ### 🎯 Objetivo del Día
 Aprendí a instalar **Linux WSL2** (*Windows Subsystem for Linux*) y a navegar por la estructura del sistema de archivos mediante la consola de **Ubuntu**.
@@ -28,7 +28,7 @@ Vi cómo Linux puede correr en un sistema compartido con Windows y estar en su p
 
 ## 🏢 Semana 2: Despliegue de Servidor de Empresa y Gestión de Archivos
 
-**Fecha:** 27/07/2026 | **Tiempo dedicado:** 60 minutos
+**Fecha:** 07/27/2026 | **Tiempo dedicado:** 60 minutos
 
 ### 🎯 Objetivo del Día
 Crear una estructura de directorios simulando una empresa (`sistemas`, `contabilidad`, `recursos_humanos`), generar reportes internos y transferir/respaldar archivos usando `cp` y `mv`.
@@ -43,7 +43,7 @@ Crear una estructura de directorios simulando una empresa (`sistemas`, `contabil
 
 ## 🔍 Semana 3: Inspección Avanzada y Búsqueda de Archivos
 
-**Fecha:** 31/07/2026 | **Tiempo dedicado:** 60 minutos
+**Fecha:** 07/31/2026 | **Tiempo dedicado:** 60 minutos
 
 ### 🎯 Objetivo del Día
 Aprender a auditar e inspeccionar archivos de texto (*logs*) sin saturar la consola, además de rastrear y localizar archivos en la estructura del servidor mediante patrones de búsqueda.
@@ -63,7 +63,7 @@ Aprender a auditar e inspeccionar archivos de texto (*logs*) sin saturar la cons
 
 ## 📝 Semana 4: Edición Profesional de Archivos con Nano
 
-**Fecha:** 07/08/2026 | **Tiempo dedicado:** 60 minutos
+**Fecha:** 08/07/2026 | **Tiempo dedicado:** 60 minutos
 
 ### 🎯 Objetivo del Día
 Dominar el editor de texto en consola `nano` para crear, modificar, reordenar y auditar archivos de configuración directamente desde la terminal de Linux sin dependencia del entorno gráfico.
