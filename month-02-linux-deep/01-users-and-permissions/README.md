@@ -1,2 +1,3 @@
-# mes 2 
-* Informacion correspondiente al mes 2
+# 📂 Semana 1: Usuarios, Grupos y Permisos Avanzados
+
+Escribe aquí tus notas de clase a tu propio ritmo...
