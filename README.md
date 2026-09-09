@@ -1,32 +1,47 @@
 # ⚙️ Uribe System Core
-> **A hands-on technical logbook covering Linux Administration, Networking, and Systems Infrastructure.**
+> **A hands-on technical logbook covering Linux Administration, Windows Systems, and Core Infrastructure.**
 
-Welcome to my central system core. This repository serves as a structured, documented environment where I record virtual lab setups, CLI commands, troubleshooting workflows, and network diagnostics.
+Welcome to my central system core. This repository documents my self-taught progression through operating systems, CLI workflows, troubleshooting, and system services.
 
 ---
 
 ## 📊 Roadmap Overview
 
-| Month | Core Focus | Key Concepts & Tools | Status |
+| Month | Focus Area | Key Technologies & Concepts | Status |
 | :---: | :--- | :--- | :---: |
-| **01** | Linux & CLI Fundamentals | WSL2, POSIX Hierarchy, File Ops, Text Auditing, Nano | 🟢 Completed |
-| **02** | Networking & Diagnostics | TCP/IP, Subnetting, Nmap, Connectivity Tools | 🟡 In Progress |
-| **03** | Windows & PowerShell | CMD, Network Config, PowerShell Scripting (`.ps1`) | ⚪ Pending |
+| **01** | Linux & CLI Fundamentals | WSL2, Directory Tree, File Ops, Searching, Nano | 🟢 Completed |
+| **02** | Deep Linux, Services & Diagnostics | Systemd, Users/Permissions, Resources, Bash Scripting | 🟡 In Progress |
+| **03** | Windows Fundamentals & PowerShell | Architecture, NTFS, Registry, Cmdlets, Troubleshooting | ⚪ Pending |
 
 ---
 
-## 🗓️ Month 01: Linux & CLI Fundamentals
+## 🗓️ Month 01: Linux & CLI Fundamentals (Completed)
 
-| Week | Topic / Lab Scenario | Key Commands | Direct Access |
-| :---: | :--- | :--- | :---: |
-| **W01** | WSL2 Deployment & Navigation | `pwd`, `cd`, `ls` | [📁 View Lab](./month-01-linux-basics/week-01-wsl-setup/) |
-| **W02** | Enterprise File Management & Backups | `mkdir -p`, `cp`, `mv`, `ls -R` | [📁 View Lab](./month-01-linux-basics/week-02-file-management/) |
-| **W03** | Advanced Inspection & File Searching | `wc -L`, `head`, `tail`, `find` | [📁 View Lab](./month-01-linux-basics/week-03-search-inspection/) |
-| **W04** | Terminal Editing & Config Files | `nano`, `Ctrl+O`, `Ctrl+K/U/W` | [📁 View Lab](./month-01-linux-basics/week-04-nano-configuration/) |
+| Module | Topic / Lab Scenario | Direct Access | Status |
+| :---: | :--- | :---: | :---: |
+| **W01** | WSL2 Setup & Navigation | [📁 View Lab](./month-01-linux-basics/week-01-wsl-setup/) | 🟢 Completed |
+| **W02** | Corporate File Structure & Backups | [📁 View Lab](./month-01-linux-basics/week-02-file-management/) | 🟢 Completed |
+| **W03** | Advanced Log Inspection & Search | [📁 View Lab](./month-01-linux-basics/week-03-search-inspection/) | 🟢 Completed |
+| **W04** | Terminal Editing & System Config | [📁 View Lab](./month-01-linux-basics/week-04-nano-configuration/) | 🟢 Completed |
 
 ---
 
-## 🛠️ Environments & Utilities
-- **Operating Systems:** Ubuntu 22.04 LTS (WSL2), Windows Server
-- **Hypervisors:** Oracle VirtualBox
-- **CLI & Scripting:** Bash, Git CLI, Windows CMD
+## 🗓️ Month 02: Deep Linux, Services & Diagnostics
+
+| Module | Topic / Focus Area | Direct Access | Status |
+| :---: | :--- | :---: | :---: |
+| **01** | Advanced Users, Groups & POSIX Permissions | [📁 View Lab](./month-02-linux-deep/01-users-and-permissions/) | 🟡 In Progress |
+| **02** | Systemd Service Management & Diagnostics | 📁 Pending | ⚪ Pending |
+| **03** | Resource Management (CPU, RAM, Storage, Processes) | 📁 Pending | ⚪ Pending |
+| **04** | Bash Scripting & Basic Automation | 📁 Pending | ⚪ Pending |
+
+---
+
+## 🗓️ Month 03: Windows Fundamentals & Operational PowerShell
+
+| Module | Topic / Focus Area | Direct Access | Status |
+| :---: | :--- | :---: | :---: |
+| **01** | Windows Architecture, NTFS & Registry | 📁 Pending | ⚪ Pending |
+| **02** | Object-Oriented PowerShell Basics | 📁 Pending | ⚪ Pending |
+| **03** | PowerShell Scripting for System Admin | 📁 Pending | ⚪ Pending |
+| **04** | Advanced Windows Troubleshooting | 📁 Pending | ⚪ Pending |
